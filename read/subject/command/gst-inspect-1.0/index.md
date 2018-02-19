@@ -796,3 +796,8 @@ $ dpkg -S $(which gst-inspect-1.0)
 ```
 gstreamer1.0-tools: /usr/bin/gst-inspect-1.0
 ```
+
+
+## 相關連結
+
+* GStreamer documentation / [Command line tools](https://gstreamer.freedesktop.org/documentation/tools/index.html) / [gst-inspect-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-inspect.html)

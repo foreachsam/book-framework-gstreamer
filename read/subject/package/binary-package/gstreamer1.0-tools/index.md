@@ -150,3 +150,7 @@ $ view /usr/share/doc/gstreamer1.0-tools/README.Debian
 ``` sh
 $ view /usr/share/doc/gstreamer1.0-tools/README.gz
 ```
+
+## 相關連結
+
+* GStreamer documentation / [Command line tools](https://gstreamer.freedesktop.org/documentation/tools/index.html)
