@@ -47,7 +47,7 @@ source_url: '/read/subject/package/index.md'
 
 * [gir1.2-gstreamer-1.0](https://packages.ubuntu.com/artful/gir1.2-gstreamer-1.0)
 * [gstreamer1.0-doc](https://packages.ubuntu.com/artful/gstreamer1.0-doc)
-* [gstreamer1.0-tools](https://packages.ubuntu.com/artful/gstreamer1.0-tools)
+* [gstreamer1.0-tools](https://packages.ubuntu.com/artful/gstreamer1.0-tools) ([explore](binary-package/gstreamer1.0-tools))
 * [libgstreamer1.0-0](https://packages.ubuntu.com/artful/libgstreamer1.0-0) ([explore](binary-package/libgstreamer1.0-0))
 * [libgstreamer1.0-0-dbg](https://packages.ubuntu.com/artful/libgstreamer1.0-0-dbg)
 * [libgstreamer1.0-dev](https://packages.ubuntu.com/artful/libgstreamer1.0-dev)

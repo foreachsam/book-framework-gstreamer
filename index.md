@@ -13,6 +13,7 @@ source_url: '/index.md'
 
 ## [Package](read/subject/package)
 
+* [gstreamer1.0-tools](read/subject/package/binary-package/gstreamer1.0-tools)
 * [libgstreamer1.0-0](read/subject/package/binary-package/libgstreamer1.0-0)
 
 

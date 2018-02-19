@@ -1,8 +1,8 @@
 ---
 layout: page
-title: gstreamer1.0 - Binary Package
+title: libgstreamer1.0-0 - Binary Package
 description: >
-  gstreamer1.0 - Binary Package
+  libgstreamer1.0-0 - Binary Package
 date: 2018-02-19 09:03:42 +0800
 source_url: '/read/subject/package/binary-package/libgstreamer1.0-0/index.md'
 parent:
