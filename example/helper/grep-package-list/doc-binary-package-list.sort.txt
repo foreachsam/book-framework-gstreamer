@@ -1,0 +1,9 @@
+gstreamer1.0-doc
+gstreamer1.0-plugins-bad-doc
+gstreamer1.0-plugins-base-doc
+gstreamer1.0-plugins-good-doc
+gstreamer1.0-plugins-ugly-doc
+gstreamer1.0-vaapi-doc
+libges-1.0-doc
+libgstreamermm-1.0-doc
+libgstrtspserver-1.0-doc

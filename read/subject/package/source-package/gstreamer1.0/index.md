@@ -1,9 +1,9 @@
 ---
 layout: page
-title: gstreamer1.0 - Source Package
+title: gstreamer1.0.0 - Source Package
 description: >
   gstreamer1.0 - Source Package
-date: 2018-02-19 09:03:23 +0800
+date: 2018-02-19 18:45:26 +0800
 source_url: '/read/subject/package/source-package/gstreamer1.0/index.md'
 parent:
   title: GStreamer Ubuntu (Debian) Package
@@ -11,9 +11,9 @@ parent:
 ---
 
 
-## apt-cache showsrc
+## 原始套件資訊
 
-執行
+執行下面指令，可以觀看「Source Package: [gstreamer1.0](https://packages.ubuntu.com/source/artful/gstreamer1.0)」相關資訊
 
 ``` sh
 $ apt-cache showsrc gstreamer1.0
@@ -55,4 +55,16 @@ Checksums-Sha256:
  49dce6f897b9afbe63640e23e5f39d7177dc755a005abb8af35b616a84d19a9e 3017 gstreamer1.0_1.12.3-1.dsc
  d388f492440897f02b01eebb033ca2d41078a3d85c0eddc030cdea5a337a216e 3175480 gstreamer1.0_1.12.3.orig.tar.xz
  4d99a1b9668556707d42948d2c1d441c3c46c8f1347cbd91cb957319377d2cfc 43128 gstreamer1.0_1.12.3-1.debian.tar.xz
+
 ```
+
+## Binary Package 
+
+* [gir1.2-gstreamer-1.0](https://packages.ubuntu.com/artful/gir1.2-gstreamer-1.0) ([explore](/book-framework-gstreamer/read/subject/package/binary-package/gir1.2-gstreamer-1.0))
+* [gstreamer1.0-doc](https://packages.ubuntu.com/artful/gstreamer1.0-doc) ([explore](/book-framework-gstreamer/read/subject/package/binary-package/gstreamer1.0-doc))
+* [gstreamer1.0-tools](https://packages.ubuntu.com/artful/gstreamer1.0-tools) ([explore](/book-framework-gstreamer/read/subject/package/binary-package/gstreamer1.0-tools))
+* [libgstreamer1.0-0](https://packages.ubuntu.com/artful/libgstreamer1.0-0) ([explore](/book-framework-gstreamer/read/subject/package/binary-package/libgstreamer1.0-0))
+* [libgstreamer1.0-0-dbg](https://packages.ubuntu.com/artful/libgstreamer1.0-0-dbg) ([explore](/book-framework-gstreamer/read/subject/package/binary-package/libgstreamer1.0-0-dbg))
+* [libgstreamer1.0-dev](https://packages.ubuntu.com/artful/libgstreamer1.0-dev) ([explore](/book-framework-gstreamer/read/subject/package/binary-package/libgstreamer1.0-dev))
+
+

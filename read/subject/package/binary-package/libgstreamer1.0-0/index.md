@@ -3,7 +3,7 @@ layout: page
 title: libgstreamer1.0-0 - Binary Package
 description: >
   libgstreamer1.0-0 - Binary Package
-date: 2018-02-19 09:03:42 +0800
+date: 2018-02-19 18:45:26 +0800
 source_url: '/read/subject/package/binary-package/libgstreamer1.0-0/index.md'
 parent:
   title: GStreamer Ubuntu (Debian) Package
@@ -11,9 +11,9 @@ parent:
 ---
 
 
-## apt-cache show
+## 套件資訊
 
-執行
+執行下面指令，可以觀看「Binary Package: [libgstreamer1.0-0](https://packages.ubuntu.com/artful/libgstreamer1.0-0)」相關資訊
 
 ``` sh
 $ apt-cache show libgstreamer1.0-0
@@ -60,7 +60,7 @@ Supported: 9m
 
 ## 安裝
 
-執行
+執行下面指令，安裝「[libgstreamer1.0-0](https://packages.ubuntu.com/artful/libgstreamer1.0-0)」這個套件。
 
 ``` sh
 $ sudo apt-get install libgstreamer1.0-0
@@ -68,7 +68,7 @@ $ sudo apt-get install libgstreamer1.0-0
 
 ## 檔案
 
-執行
+執行下面指令，觀看「[libgstreamer1.0-0](https://packages.ubuntu.com/artful/libgstreamer1.0-0)」這個套件，安裝那些檔案在系統上。
 
 ``` sh
 $ dpkg -L libgstreamer1.0-0 | sort
@@ -107,4 +107,31 @@ $ dpkg -L libgstreamer1.0-0 | sort
 /usr/share/doc/libgstreamer1.0-0/NEWS.gz
 /usr/share/doc/libgstreamer1.0-0/README.Debian
 /usr/share/doc/libgstreamer1.0-0/README.gz
+```
+
+## From Source Package: [gstreamer1.0](/book-framework-gstreamer/read/subject/package/source-package/gstreamer1.0)
+
+執行下面指令，可以了解到「[libgstreamer1.0-0](https://packages.ubuntu.com/artful/libgstreamer1.0-0)」這個套件，是來自於哪個「Source Package」
+
+``` sh
+$ apt-cache showsrc libgstreamer1.0-0 | grep '^Package:'
+```
+
+顯示
+
+```
+Package: gstreamer1.0
+```
+表示「Binary Package: [libgstreamer1.0-0](https://packages.ubuntu.com/artful/libgstreamer1.0-0)」是來自於「Source Package: [gstreamer1.0](https://packages.ubuntu.com/source/artful/gstreamer1.0) ([explore](/book-framework-gstreamer/read/subject/package/source-package/gstreamer1.0))」
+
+或是執行下面指令
+
+``` sh
+$ apt-cache show libgstreamer1.0-0 | grep '^Source:'
+```
+
+顯示
+
+```
+Source: gstreamer1.0
 ```

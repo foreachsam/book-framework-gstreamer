@@ -3,7 +3,7 @@ layout: page
 title: gstreamer1.0-tools - Binary Package
 description: >
   gstreamer1.0-tools - Binary Package
-date: 2018-02-19 09:03:42 +0800
+date: 2018-02-19 18:45:26 +0800
 source_url: '/read/subject/package/binary-package/gstreamer1.0-tools/index.md'
 parent:
   title: GStreamer Ubuntu (Debian) Package
@@ -13,7 +13,7 @@ parent:
 
 ## 套件資訊
 
-執行
+執行下面指令，可以觀看「Binary Package: [gstreamer1.0-tools](https://packages.ubuntu.com/artful/gstreamer1.0-tools)」相關資訊
 
 ``` sh
 $ apt-cache show gstreamer1.0-tools
@@ -58,7 +58,7 @@ Supported: 9m
 
 ## 安裝
 
-執行
+執行下面指令，安裝「[gstreamer1.0-tools](https://packages.ubuntu.com/artful/gstreamer1.0-tools)」這個套件。
 
 ``` sh
 $ sudo apt-get install gstreamer1.0-tools
@@ -66,7 +66,7 @@ $ sudo apt-get install gstreamer1.0-tools
 
 ## 檔案
 
-執行
+執行下面指令，觀看「[gstreamer1.0-tools](https://packages.ubuntu.com/artful/gstreamer1.0-tools)」這個套件，安裝那些檔案在系統上。
 
 ``` sh
 $ dpkg -L gstreamer1.0-tools | sort
@@ -156,3 +156,31 @@ $ view /usr/share/doc/gstreamer1.0-tools/README.gz
 * GStreamer documentation / [Command line tools](https://gstreamer.freedesktop.org/documentation/tools/index.html)
 * GStreamer documentation / Tutorials / [Basic tutorial 10: GStreamer tools](https://gstreamer.freedesktop.org/documentation/tutorials/basic/gstreamer-tools.html)
 * GStreamer documentation / [What is GStreamer?](https://gstreamer.freedesktop.org/documentation/application-development/introduction/gstreamer.html)
+
+
+## From Source Package: [gstreamer1.0](/book-framework-gstreamer/read/subject/package/source-package/gstreamer1.0)
+
+執行下面指令，可以了解到「[gstreamer1.0-tools](https://packages.ubuntu.com/artful/gstreamer1.0-tools)」這個套件，是來自於哪個「Source Package」
+
+``` sh
+$ apt-cache showsrc gstreamer1.0-tools | grep '^Package:'
+```
+
+顯示
+
+```
+Package: gstreamer1.0
+```
+表示「Binary Package: [gstreamer1.0-tools](https://packages.ubuntu.com/artful/gstreamer1.0-tools)」是來自於「Source Package: [gstreamer1.0](https://packages.ubuntu.com/source/artful/gstreamer1.0) ([explore](/book-framework-gstreamer/read/subject/package/source-package/gstreamer1.0))」
+
+或是執行下面指令
+
+``` sh
+$ apt-cache show gstreamer1.0-tools | grep '^Source:'
+```
+
+顯示
+
+```
+Source: gstreamer1.0
+```
