@@ -18,6 +18,11 @@ source_url: '/read/subject/package/index.md'
 * Debian Wiki / [Package](https://wiki.debian.org/Package)
 
 
+## 找尋方法
+
+開啟「Terminal」，先輸入「`apt-cache showsrc gst`」，接著按下「Tab」鍵，就會出現下面列表。
+
+
 ## Source Package
 
 * [gst-fluendo-mp3](https://packages.ubuntu.com/source/artful/gst-fluendo-mp3)
