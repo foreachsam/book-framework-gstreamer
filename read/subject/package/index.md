@@ -20,7 +20,7 @@ source_url: '/read/subject/package/index.md'
 
 ## 找尋方法
 
-開啟「Terminal」，先輸入「`apt-cache showsrc gst`」，接著按下「Tab」鍵，就會出現下面列表。
+開啟「Terminal」，先輸入「`apt-cache showsrc gst`」，接著按下「Tab」鍵，就會出現下面「Source Package」的列表。
 
 
 ## Source Package
