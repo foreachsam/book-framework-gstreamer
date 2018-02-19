@@ -16,6 +16,8 @@ source_url: '/read/subject/package/index.md'
 * Debian Wiki / [BinaryPackage](https://wiki.debian.org/Packaging/BinaryPackage)
 * Debian Wiki / [SourcePackage](https://wiki.debian.org/Packaging/SourcePackage)
 * Debian Wiki / [Package](https://wiki.debian.org/Package)
+* GStreamer documentation / [What is GStreamer?](https://gstreamer.freedesktop.org/documentation/application-development/introduction/gstreamer.html)
+* GStreamer / [source download directory](https://gstreamer.freedesktop.org/src/)
 
 
 ## 找尋方法

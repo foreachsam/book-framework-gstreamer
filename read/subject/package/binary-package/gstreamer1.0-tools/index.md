@@ -154,3 +154,5 @@ $ view /usr/share/doc/gstreamer1.0-tools/README.gz
 ## 相關連結
 
 * GStreamer documentation / [Command line tools](https://gstreamer.freedesktop.org/documentation/tools/index.html)
+* GStreamer documentation / Tutorials / [Basic tutorial 10: GStreamer tools](https://gstreamer.freedesktop.org/documentation/tutorials/basic/gstreamer-tools.html)
+* GStreamer documentation / [What is GStreamer?](https://gstreamer.freedesktop.org/documentation/application-development/introduction/gstreamer.html)

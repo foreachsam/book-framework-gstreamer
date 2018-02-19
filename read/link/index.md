@@ -20,6 +20,8 @@ source_url: '/read/link/index.md'
 * GStreamer / Documentation / Command line tools / [gst-inspect-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-inspect.html)
 * GStreamer / Documentation / Command line tools / [gst-launch-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html)
 * GStreamer / Documentation / Command line tools / [ges-launch-1.0](https://gstreamer.freedesktop.org/documentation/tools/ges-launch.html)
+* GStreamer / Documentation / Tutorials / [Basic tutorial 10: GStreamer tools](https://gstreamer.freedesktop.org/documentation/tutorials/basic/gstreamer-tools.html)
+* GStreamer / Documentation / Tutorials / [Basic tutorial 11: Debugging tools](https://gstreamer.freedesktop.org/documentation/tutorials/basic/debugging-tools.html)
 
 
 ## Tutorial

@@ -798,6 +798,27 @@ gstreamer1.0-tools: /usr/bin/gst-inspect-1.0
 ```
 
 
+## The debug log
+
+可以參考「GStreamer / Documentation / Tutorials / Basic tutorial 11: Debugging tools / [The debug log](https://gstreamer.freedesktop.org/documentation/tutorials/basic/debugging-tools.html#the-debug-log)」，
+
+執行
+
+``` sh
+GST_DEBUG=4 gst-inspect-1.0 playbin
+```
+
+會看到類似如下的訊息
+
+```
+0:00:00.000085979 25777 0x56554c077e00 INFO                GST_INIT gst.c:507:init_pre: Initializing GStreamer Core Library version 1.12.3
+0:00:00.000164823 25777 0x56554c077e00 INFO                GST_INIT gst.c:508:init_pre: Using library installed in /usr/lib/x86_64-linux-gnu
+...略...
+```
+
+
 ## 相關連結
 
 * GStreamer documentation / [Command line tools](https://gstreamer.freedesktop.org/documentation/tools/index.html) / [gst-inspect-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-inspect.html)
+* GStreamer documentation / Tutorials / Basic tutorial 10: GStreamer tools / [gst-inspect-1.0](https://gstreamer.freedesktop.org/documentation/tutorials/basic/gstreamer-tools.html#gstinspect10)
+* GStreamer documentation / Tutorials / Basic tutorial 11: Debugging tools / [The debug log](https://gstreamer.freedesktop.org/documentation/tutorials/basic/debugging-tools.html#the-debug-log)
