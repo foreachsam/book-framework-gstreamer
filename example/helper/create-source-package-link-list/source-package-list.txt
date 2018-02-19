@@ -1,0 +1,14 @@
+gst-fluendo-mp3
+gst-libav1.0
+gst-omx
+gst-plugins-bad1.0
+gst-plugins-base1.0
+gst-plugins-espeak
+gst-plugins-good1.0
+gst-plugins-ugly1.0
+gst-python1.0
+gstreamer1.0
+gstreamer-editing-services1.0
+gstreamer-vaapi
+gst-rtsp-server1.0
+streamermm-1.0
