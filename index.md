@@ -14,3 +14,8 @@ source_url: '/index.md'
 ## [Package](read/subject/package)
 
 * [libgstreamer1.0-0](read/subject/package/binary-package/libgstreamer1.0-0)
+
+
+## [Howto](read/howto)
+
+* [透過「apt」來安裝](read/howto/install/install-from-apt)
