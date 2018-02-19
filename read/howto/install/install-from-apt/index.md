@@ -24,6 +24,10 @@ parent:
 $ sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools
 ```
 
+## 安裝 Script
+
+* [demo-001](https://github.com/foreachsam/book-framework-gstreamer/blob/gh-pages/example/howto/install/install-from-apt/demo-001/install.sh)
+* [demo-002](https://github.com/foreachsam/book-framework-gstreamer/tree/gh-pages/example/howto/install/install-from-apt/demo-002)
 
 ## 套件
 
