@@ -157,3 +157,35 @@ $ gst-typefind-1.0 ~/Videos/demo/sintel_trailer_gr.srt | awk -F ' - ' '{printf "
 ```
 application/x-subtitle
 ```
+
+## 類似的指令
+
+* [mimetype](http://manpages.ubuntu.com/manpages/artful/en/man1/mimetype.1p.html)
+
+### srt
+
+執行
+
+``` sh
+$ mimetype ~/Videos/demo/sintel_trailer_gr.srt
+```
+
+顯示
+
+```
+/home/user/Videos/demo/sintel_trailer_gr.srt: application/x-subrip
+```
+
+### webm
+
+執行
+
+``` sh
+$ mimetype ~/Videos/demo/sintel_trailer-480p.webm
+```
+
+顯示
+
+```
+/home/user/Videos/demo/sintel_trailer-480p.webm: video/webm
+```
