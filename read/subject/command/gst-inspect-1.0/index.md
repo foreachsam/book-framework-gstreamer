@@ -11,7 +11,6 @@ parent:
 ---
 
 
-
 ## manpage
 
 執行下面指令，觀看「[gst-inspect-1.0](http://manpages.ubuntu.com/manpages/artful/en/man1/gst-inspect-1.0.1.html)」的使用說明。
@@ -56,6 +55,7 @@ Application Options:
   --atleast-version                    When checking if an element or plugin exists, also check that its version is at least the version specified
   -u, --uri-handlers                   Print supported URI schemes, with the elements that implement them
   --version                            Print version information and exit
+
 ```
 
 ## version

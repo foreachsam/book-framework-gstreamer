@@ -19,6 +19,12 @@ source_url: '/index.md'
 ## [Tool](read/subject/command)
 
 * [gst-inspect-1.0](read/subject/command/gst-inspect-1.0)
+* [gst-launch-1.0](read/subject/command/gst-launch-1.0)
+* [gst-typefind-1.0](read/subject/command/gst-typefind-1.0)
+* [gst-device-monitor-1.0](read/subject/command/gst-device-monitor-1.0)
+* [gst-discoverer-1.0](read/subject/command/gst-discoverer-1.0)
+* [gst-play-1.0](read/subject/command/gst-play-1.0)
+* [ges-launch-1.0](read/subject/command/ges-launch-1.0)
 
 
 ## Tool [Package](read/subject/package)
