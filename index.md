@@ -56,3 +56,8 @@ source_url: '/index.md'
 * [libges-1.0-doc](read/subject/package/binary-package/libges-1.0-doc)
 * [libgstreamermm-1.0-doc](read/subject/package/binary-package/libgstreamermm-1.0-doc)
 * [libgstrtspserver-1.0-doc](read/subject/package/binary-package/libgstrtspserver-1.0-doc)
+
+
+## [Resource](read/resource)
+
+* [tutorial-media](read/resource/tutorial-media)

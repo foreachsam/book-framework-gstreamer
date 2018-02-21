@@ -74,3 +74,85 @@ gst-play-1.0 version 1.12.3
 GStreamer 1.12.3
 https://launchpad.net/distros/ubuntu/+source/gst-plugins-base1.0
 ```
+
+## 範例檔案
+
+請參考「Resource / [tutorial-media](/book-framework-gstreamer/read/resource/tutorial-media/)」。
+
+
+## 使用範例
+
+執行
+
+``` sh
+$ gst-play-1.0 https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+可以對照「[ges-launch-1.0](http://manpages.ubuntu.com/manpages/artful/en/man1/ges-launch-1.0.1.html) 的「[用法](/book-framework-gstreamer/read/subject/command/gst-launch-1.0/)」。
+
+執行
+
+``` sh
+$ gst-launch-1.0 playbin uri=https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+
+## 其他類似的播放指令
+
+
+* [ffplay](http://manpages.ubuntu.com/manpages/artful/en/man1/ffplay.1.html)
+* [mpv](http://manpages.ubuntu.com/manpages/artful/en/man1/mpv.1.html)
+* [mplayer](http://manpages.ubuntu.com/manpages/artful/en/man1/mplayer.1.html)
+* [smplayer](http://manpages.ubuntu.com/manpages/artful/en/man1/smplayer.1.html)
+* [vlc](http://manpages.ubuntu.com/manpages/artful/en/man1/smplayer.1.html)
+
+
+執行
+
+``` sh
+$ ffplay https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+執行
+
+``` sh
+$ mpv https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+執行
+
+``` sh
+$ mplayer https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+執行
+
+``` sh
+$ smplayer https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+執行
+
+``` sh
+$ vlc https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+加入字幕則是
+
+執行
+
+``` sh
+$ gst-launch-1.0 playbin uri=https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm suburi=https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer_gr.srt
+```
+
+執行
+
+``` sh
+$ mpv --sub-files=$HOME/Videos/demo/sintel_trailer_gr.srt https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+執行
+
+``` sh
+$ smplayer -sub $HOME/Videos/demo/sintel_trailer_gr.srt https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```

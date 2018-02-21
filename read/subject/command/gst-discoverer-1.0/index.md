@@ -51,3 +51,48 @@ Application Options:
   -v, --verbose                     Verbose properties
 
 ```
+
+
+## 範例檔案
+
+請參考「Resource / [tutorial-media](/book-framework-gstreamer/read/resource/tutorial-media/)」。
+
+
+## 使用範例
+
+執行
+
+``` sh
+$ gst-discoverer-1.0 https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+執行
+
+``` sh
+$ gst-discoverer-1.0 -v https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+
+## 類似的指令
+
+* [ffprobe](http://manpages.ubuntu.com/manpages/artful/en/man1/ffprobe.1.html)
+* [mediainfo](http://manpages.ubuntu.com/manpages/artful/en/man1/mediainfo.1.html)
+
+
+執行
+
+``` sh
+$ ffprobe https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+執行
+
+``` sh
+$ mediainfo https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```
+
+執行
+
+``` sh
+$ mediainfo -f https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
+```

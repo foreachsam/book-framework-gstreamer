@@ -64,3 +64,96 @@ gst-typefind-1.0 version 1.12.3
 GStreamer 1.12.3
 https://launchpad.net/distros/ubuntu/+source/gstreamer1.0
 ```
+
+
+## 範例檔案
+
+請參考「Resource / [tutorial-media](/book-framework-gstreamer/read/resource/tutorial-media/)」。
+
+
+## 使用範例
+
+
+### webm
+
+執行
+
+``` sh
+$ gst-typefind-1.0 ~/Videos/demo/sintel_trailer-480p.webm
+```
+
+顯示
+
+```
+/home/user/Videos/demo/sintel_trailer-480p.webm - video/webm
+```
+
+### mkv
+
+執行
+
+``` sh
+$ gst-typefind-1.0 ~/Videos/demo/sintel_trailer-480p.mkv
+```
+
+顯示
+
+```
+/home/user/Videos/demo/sintel_trailer-480p.mkv - video/x-matroska
+```
+
+### ogv
+
+執行
+
+``` sh
+$ gst-typefind-1.0 ~/Videos/demo/sintel_trailer-480p.ogv
+```
+
+顯示
+
+```
+/home/user/Videos/demo/sintel_trailer-480p.ogv - video/ogg
+```
+
+### srt
+
+執行
+
+``` sh
+$ gst-typefind-1.0 ~/Videos/demo/sintel_trailer_gr.srt
+```
+
+顯示
+
+```
+/home/user/Videos/demo/sintel_trailer_gr.srt - application/x-subtitle
+```
+
+### 搭配 cut
+
+執行
+
+``` sh
+$ gst-typefind-1.0 ~/Videos/demo/sintel_trailer_gr.srt | cut -d ' ' -f 3
+```
+
+顯示
+
+```
+application/x-subtitle
+```
+
+### 搭配 awk
+
+執行
+
+``` sh
+$ gst-typefind-1.0 ~/Videos/demo/sintel_trailer_gr.srt | awk -F ' - ' '{printf "%s\n", $2}'
+```
+
+顯示
+
+```
+application/x-subtitle
+```

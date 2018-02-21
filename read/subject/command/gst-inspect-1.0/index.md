@@ -822,3 +822,8 @@ GST_DEBUG=4 gst-inspect-1.0 playbin
 * GStreamer documentation / [Command line tools](https://gstreamer.freedesktop.org/documentation/tools/index.html) / [gst-inspect-1.0](https://gstreamer.freedesktop.org/documentation/tools/gst-inspect.html)
 * GStreamer documentation / Tutorials / Basic tutorial 10: GStreamer tools / [gst-inspect-1.0](https://gstreamer.freedesktop.org/documentation/tutorials/basic/gstreamer-tools.html#gstinspect10)
 * GStreamer documentation / Tutorials / Basic tutorial 11: Debugging tools / [The debug log](https://gstreamer.freedesktop.org/documentation/tutorials/basic/debugging-tools.html#the-debug-log)
+
+
+## 搭配 gst-launch-1.0
+
+接下來可以了解，關於「[gst-launch-1.0](http://manpages.ubuntu.com/manpages/artful/en/man1/gst-launch-1.0.1.html)」的「[用法](/book-framework-gstreamer/read/subject/command/gst-launch-1.0/)」。
