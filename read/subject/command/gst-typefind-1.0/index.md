@@ -189,3 +189,17 @@ $ mimetype ~/Videos/demo/sintel_trailer-480p.webm
 ```
 /home/user/Videos/demo/sintel_trailer-480p.webm: video/webm
 ```
+
+### 參數 -b
+
+執行
+
+``` sh
+$ mimetype -b ~/Videos/demo/sintel_trailer_gr.srt
+```
+
+顯示
+
+```
+application/x-subrip
+```
